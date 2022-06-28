@@ -4,3 +4,8 @@ document.getElementById('paragraph').innerText = 'Na década de 50, a fuga de um
 document.getElementById('second-paragraph').innerText = 'Leonardo Di Caprio'
 let paragraph = document.getElementById('paragraph')
 paragraph.style.color = 'red'
+
+let parag = document.getElementsByClassName("parag");
+for (let index in parag) {
+   parag[index].innerText = 'parag parag parag parag'
+}
