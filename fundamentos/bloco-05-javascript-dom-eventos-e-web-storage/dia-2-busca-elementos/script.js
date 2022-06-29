@@ -1,5 +1,17 @@
-let alteraCor = document.getElementById('elementoOndeVoceEsta').parentNode
-alteraCor.style.color = 'red'
+let elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
 
-let adicionaTexto = document.getElementById('primeiroFilhoDoFilho')
-adicionaTexto.innerText = 'texto texto texto texto texto texto'
+let pai = elementoOndeVoceEsta.parentElement;
+pai.style.color = 'red';
+
+let primeiroFilhoDoFilho = elementoOndeVoceEsta.firstElementChild;
+primeiroFilhoDoFilho.innerText = 'TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO';
+
+let primeiroFilho = pai.firstElementChild;
+
+let primeiroFilho2 = elementoOndeVoceEsta.previousElementSibling;
+
+let textElement = elementoOndeVoceEsta.nextSibling;
+
+let terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
+
+let terceiroFilho2 = pai.lastElementChild.previousElementSibling;
