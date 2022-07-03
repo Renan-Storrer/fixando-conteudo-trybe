@@ -19,3 +19,9 @@ let style1 = document.getElementsByClassName('style')[0];
 let style2 = document.getElementsByClassName('style')[1];
 // console.log(style1);
 // console.log(style2);
+
+style1.style.background = 'grey'
+style1.style.color = 'white'
+
+style2.style.fontFamily = 'monospace'
+style2.style.fontSize = '25px'
