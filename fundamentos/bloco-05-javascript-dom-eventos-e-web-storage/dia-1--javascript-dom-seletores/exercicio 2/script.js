@@ -26,3 +26,15 @@ for (let bgn = 0; bgn < naoUrgente.length; bgn += 1){
     naoUrgente[bgn].style.background = 'black'
     naoUrgente[bgn].style.color = 'white'
 }
+
+let fundoUrgente = document.querySelectorAll('.emergency-tasks div')
+// console.log(fundoUrgente);
+for (let fu = 0; fu < fundoUrgente.length; fu +=1){
+    fundoUrgente[fu].style.backgroundColor = 'rgb(0,191,255)'
+}
+
+let fundoNaoUrgente = document.querySelectorAll('.no-emergency-tasks div')
+// console.log(fundoNaoUrgente);
+for (let fnu = 0; fnu < fundoNaoUrgente.length; fnu += 1){
+    fundoNaoUrgente[fnu].style.backgroundColor = 'rgb(192,192,192)'
+}
