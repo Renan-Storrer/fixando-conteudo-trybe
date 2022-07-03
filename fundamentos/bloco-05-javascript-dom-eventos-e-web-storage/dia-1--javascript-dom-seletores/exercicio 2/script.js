@@ -1,7 +1,8 @@
 let header = document.querySelector('#header-container h1')
 // console.log(header);
 header.style.color = 'white'
-header.style.background = 'rgb(70, 255, 125)'
+header.style.background = 'rgb(60,179,113)'
+header.style.padding = '20px'
 
 let h3 = document.querySelectorAll('h3')
 // console.log(h3);
