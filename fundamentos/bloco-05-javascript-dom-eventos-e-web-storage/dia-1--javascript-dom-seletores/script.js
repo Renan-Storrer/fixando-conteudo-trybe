@@ -25,3 +25,10 @@ style1.style.color = 'white'
 
 style2.style.fontFamily = 'monospace'
 style2.style.fontSize = '25px'
+
+let subititulo2 = document.getElementsByTagName('h4')[0]
+// console.log(subititulo2);
+subititulo2.style.background = 'red'
+subititulo2.style.color = 'white'
+subititulo2.style.fontSize = '20px'
+subititulo2.style.fontFamily = 'monospace'
