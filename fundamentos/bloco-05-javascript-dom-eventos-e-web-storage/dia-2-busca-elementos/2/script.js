@@ -11,3 +11,9 @@ let p = document.createElement('p')
 primeiroFilhoDoFilho.appendChild(p)
 p.innerText = "Olá, tudo bem ?"
 p.style.color = 'green'
+
+let primeiroFilho = document.getElementById('pai').children[0]
+console.log(primeiroFilho);
+
+let primeiroFilho2 = document.getElementById('elementoOndeVoceEsta').previousElementSibling
+console.log(primeiroFilho2);
