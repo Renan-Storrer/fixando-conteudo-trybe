@@ -19,7 +19,11 @@ let primeiroFilho2 = document.getElementById('elementoOndeVoceEsta').previousEle
 // console.log(primeiroFilho2);
 
 let atencao = document.getElementById('elementoOndeVoceEsta').nextSibling
-console.log(atencao);
+// console.log(atencao);
 
 let terceiroFilho = document.getElementById('elementoOndeVoceEsta').nextElementSibling
-console.log(terceiroFilho);
+// console.log(terceiroFilho);
+
+let terceiroFilho2 = document.getElementById('pai').childNodes[5]
+
+console.log(terceiroFilho2);
