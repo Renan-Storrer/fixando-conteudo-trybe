@@ -13,7 +13,13 @@ p.innerText = "Olá, tudo bem ?"
 p.style.color = 'green'
 
 let primeiroFilho = document.getElementById('pai').children[0]
-console.log(primeiroFilho);
+// console.log(primeiroFilho);
 
 let primeiroFilho2 = document.getElementById('elementoOndeVoceEsta').previousElementSibling
-console.log(primeiroFilho2);
+// console.log(primeiroFilho2);
+
+let atencao = document.getElementById('elementoOndeVoceEsta').nextSibling
+console.log(atencao);
+
+let terceiroFilho = document.getElementById('elementoOndeVoceEsta').nextElementSibling
+console.log(terceiroFilho);
