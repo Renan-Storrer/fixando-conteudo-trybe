@@ -32,9 +32,20 @@ let terceiroFilho2 = document.getElementById('pai').childNodes[5]
 
 let section = document.createElement('section');
 section.className = 'certo'
+
 let pai = document.querySelector('#pai')
 // console.log(pai);
 pai.appendChild(section)
 
 elementoOndeVoceEsta.appendChild(section)
-console.log(elementoOndeVoceEsta);
+// console.log(elementoOndeVoceEsta);
+let div = document.createElement('div')
+div.id = "div"
+primeiroFilho.appendChild(div)
+// console.log(primeiroFilho);
+
+let divFilho = document.querySelector('#div')
+// console.log(divFilho);
+
+let ex4 = divFilho.parentNode.nextSibling.nextSibling.nextSibling.nextSibling
+console.log(ex4);
