@@ -26,4 +26,12 @@ let terceiroFilho = document.getElementById('elementoOndeVoceEsta').nextElementS
 
 let terceiroFilho2 = document.getElementById('pai').childNodes[5]
 
-console.log(terceiroFilho2);
+// console.log(terceiroFilho2);
+
+//-------------------//-------------------//-----------------//------------//-----
+
+let section = document.createElement('section');
+section.id = 'certo'
+let pai = document.querySelector('#pai')
+// console.log(pai);
+pai.appendChild(section)
