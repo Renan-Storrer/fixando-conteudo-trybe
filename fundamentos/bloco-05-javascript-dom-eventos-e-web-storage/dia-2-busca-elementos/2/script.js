@@ -49,3 +49,4 @@ let divFilho = document.querySelector('#div')
 
 let ex4 = divFilho.parentNode.nextSibling.nextSibling.nextSibling.nextSibling
 console.log(ex4);
+
