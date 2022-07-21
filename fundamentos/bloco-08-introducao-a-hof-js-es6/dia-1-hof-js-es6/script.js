@@ -4,4 +4,17 @@ const repeat = (number, action) => {
   }
 };
 
-repeat(5, console.log);
+const par = (number) => {
+  if (number % 2 === 0) {
+    console.log(number, 'é par');
+  }
+};
+
+const impar = (number) => {
+  if ((number % 2) !== 0) {
+    console.log(number, 'é ímpar');
+  }
+};
+
+repeat(10, par); // Testa quais números serão pares;
+repeat(10, impar); // Testa quais números serão ímpares;
