@@ -1,3 +1,5 @@
+// ex01
+
 const repeat = (number, action) => {
   for (let count = 0; count <= number; count += 1) {
     action(count);
@@ -16,5 +18,13 @@ const impar = (number) => {
   }
 };
 
-repeat(10, par); // Testa quais números serão pares;
-repeat(10, impar); // Testa quais números serão ímpares;
+// repeat(10, par); // Testa quais números serão pares;
+// repeat(10, impar); // Testa quais números serão ímpares;
+
+// ex02 
+
+const numberGenerator = () => {
+  return Math.random() * 100;
+}
+
+console.log(numberGenerator());
